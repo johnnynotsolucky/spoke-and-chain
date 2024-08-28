@@ -162,7 +162,7 @@ It also has config for the following tools:
 
 - [PHPStan](https://github.com/phpstan/phpstan)
 
-These are installed with composer and can be run using `composer run-script <tool>`. See the `scripts` section in the composer.json file.
+These are installed with composer and can be run using `ddev composer run-script <tool>`. See the `scripts` section in the composer.json file.
 
 #### Running locally
 
@@ -171,7 +171,7 @@ These are installed with composer and can be run using `composer run-script <too
 **Target PHPStan level:** 9
 
 ```bash
-composer run-script phpstan
+ddev composer run-script phpstan
 ```
 
 Will output changes that can be made, but will not make the fixes automatically.
@@ -182,7 +182,7 @@ In this project, PHPStan requires generated stubs. These are actually copied fro
 script is available to do this for us:
 
 ```bash
-composer run-script generate-stubs
+ddev composer run-script generate-stubs
 ```
 
 This should be run whenever custom field types on elements are not resolving.
@@ -194,13 +194,13 @@ This should be run whenever custom field types on elements are not resolving.
 To check for ECS changes, run:
 
 ```bash
-composer run-script ecs:check
+ddev composer run-script ecs:check
 ```
 
 To apply any fixes use:
 
 ```bash
-composer run-script ecs:fix
+ddev composer run-script ecs:fix
 ```
 
 ##### Rector
@@ -210,13 +210,13 @@ composer run-script ecs:fix
 Similary to ECS, to check for and review possible changes, run:
 
 ```bash
-composer run-script rector:dry-run
+ddev composer run-script rector:dry-run
 ```
 
 And to apply changes:
 
 ```bash
-composer run-script rector:fix
+ddev composer run-script rector:fix
 ```
 
 ## License
