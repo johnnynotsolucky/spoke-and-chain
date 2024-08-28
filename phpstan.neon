@@ -1,0 +1,12 @@
+includes:
+    - vendor/craftcms/phpstan/phpstan.neon
+
+parameters:
+    scanFiles:
+        - stubs/CustomFieldBehavior.php
+    excludePaths:
+        - modules/demos/src/console/controllers/SeedController.php
+    paths:
+        - config
+        - modules
+    level: 9

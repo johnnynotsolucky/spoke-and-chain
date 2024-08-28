@@ -1,0 +1,31 @@
+columnSuffix: vmtyuvjf
+handle: businessHours
+instructions: 'Enter the shop’s daily opening and closing hours.'
+name: 'Business Hours'
+searchable: false
+settings:
+  slots:
+    __assoc__:
+      -
+        - open
+        -
+          __assoc__:
+            -
+              - name
+              - 'Opening Time'
+            -
+              - handle
+              - open
+      -
+        - close
+        -
+          __assoc__:
+            -
+              - name
+              - 'Closing Time'
+            -
+              - handle
+              - close
+translationKeyFormat: null
+translationMethod: none
+type: craft\storehours\Field

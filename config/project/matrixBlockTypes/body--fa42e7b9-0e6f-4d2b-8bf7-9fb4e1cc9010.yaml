@@ -1,0 +1,75 @@
+field: bd167f4d-e985-4aec-b6e4-9ba85fbe69f9 # Content Blocks
+fieldLayouts:
+  13c1626f-d23d-4ed1-8205-b49108b53edc:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 2e8e706d-cbc4-4433-a3b1-2a7a4be18ee2 # Body
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 72074312-5efa-4c45-a3e8-f0d4b104b072
+            warning: null
+            width: 100
+          -
+            fieldUid: 03f1355e-67b8-457a-b8e9-20cbc34af8c4 # Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 179194cc-fda8-4a3f-a004-56134bc991df
+            warning: null
+            width: 100
+        name: Content
+        uid: 38e8252e-7338-4d4e-92c8-ab9b7073b3e5
+fields:
+  2e8e706d-cbc4-4433-a3b1-2a7a4be18ee2: # Body
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: Body
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: true
+      removeInlineStyles: true
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  03f1355e-67b8-457a-b8e9-20cbc34af8c4: # Intro
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: intro
+    instructions: 'Enable to display slightly larger text for an introduction.'
+    name: Intro
+    searchable: true
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: body
+name: Body
+sortOrder: 1

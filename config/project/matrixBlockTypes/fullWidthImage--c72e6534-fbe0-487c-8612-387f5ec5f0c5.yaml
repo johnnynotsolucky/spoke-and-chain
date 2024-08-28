@@ -1,0 +1,58 @@
+field: bd167f4d-e985-4aec-b6e4-9ba85fbe69f9 # Content Blocks
+fieldLayouts:
+  a4d40528-744c-4343-940a-f76056228c2d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4ddf421a-c279-4733-9b0c-2df498c98ec8 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86a67306-fc79-44db-9eac-06abb4b7800f
+            warning: null
+            width: 100
+        name: Content
+        uid: 145c6fa5-235b-418f-b42a-1827819d1774
+fields:
+  4ddf421a-c279-4733-9b0c-2df498c98ec8: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: 'Choose a reasonably-large image to be displayed at full width. (Will automatically be cropped to various sizes.)'
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:994a420b-cb3e-4813-be6a-dd7ac7f55c6b' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:994a420b-cb3e-4813-be6a-dd7ac7f55c6b' # Images
+      restrictedLocationSubpath: null
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: fullWidthImage
+name: 'Full Width Image'
+sortOrder: 2

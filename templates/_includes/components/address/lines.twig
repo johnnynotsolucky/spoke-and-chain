@@ -1,0 +1,6 @@
+{% set address = address is not defined ? null : address %}
+
+{% if address %}
+  <!-- Template: {{ _self }}.twig -->
+    {{ craft.app.addresses.formatAddress(address)|raw }}
+{% endif %}

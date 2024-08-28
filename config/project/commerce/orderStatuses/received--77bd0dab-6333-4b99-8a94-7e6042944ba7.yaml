@@ -1,0 +1,9 @@
+color: green
+default: true
+description: null
+emails:
+  0f590e76-b015-4dad-b3b6-4bc6e721c244: 0f590e76-b015-4dad-b3b6-4bc6e721c244 # Order Received
+handle: received
+name: Received
+sortOrder: 1
+store: 084e99dd-eb3e-4322-8616-8a04eda795ae # Primary Store
